@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Snake</title>
+    <link rel="stylesheet" href="css/main.css"/>
+
+</head>
+<body>
+
+<header>
+    <h1 class="gameName">The Snake Game</h1>
+    <button class="newGame">New Game</button>
+    <button class="pause" id="pauseOff">Pause</button>
+    <div class="buttonWrapper">
+        <div>
+            <h3 class="strictMode">Strict mode:</h3><button class="strict" data-strict="Off">Off</button>
+        </div>
+        <div>
+            <h3 class="mirrorMode">Mirror mode:</h3><button class="mirror" data-mirror="On">On</button>
+        </div>
+    </div>
+    <div class="speedControl">
+        <h3>Speed:</h3>
+        <button data-speed-game="300" class="active">1x</button>
+        <button data-speed-game="150">2x</button>
+        <button data-speed-game="50">4x</button>
+    </div>
+    <h3 class="highScore">High score: <span>0</span></h3>
+    <h3 class="score">Score: <span>0</span></h3>
+</header>
+<section id="gameArea">
+    <div class="gameOver">
+        <h3 class="gO">Game Over!</h3>
+    </div>
+    <div class="wrapper">
+
+    </div>
+</section>
+<script type="text/javascript" src="js/libs.min.js"></script>
+<script type="text/javascript" src="js/main.min.js"></script>
+</body>
+</html>

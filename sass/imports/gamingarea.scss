@@ -1,0 +1,79 @@
+#gameArea .wrapper {
+  width: 500px;
+  height: 500px;
+  font-size: 0;
+  border: 3px solid #bbada0;
+  border-radius: 10px;
+  margin: 20px auto 0;
+}
+
+  .wrapper .block{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    //border: 1px solid #000000;
+    background: #fffccc;
+    border-radius: 5px;
+  }
+
+.block[data-food = 'food'] {
+    background: #a61717;
+}
+#head{
+  background: #000;
+}
+.wrapper .tail{
+  background: #555555;
+}
+button {
+  outline: none;
+}
+ .pause{
+   display: inline-block;
+   width: 100px;
+}
+.speedControl{
+  margin: 20px 0;
+}
+  .speedControl button.active{
+     border: 2px solid #000000;
+   }
+   .speedControl h3 {
+     display: inline-block;
+     font-size: 22px;
+     vertical-align: middle;
+     margin: 0;
+   }
+
+.gameOver{
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin-left: -225px;
+}
+  .gameOver h3{
+    font-size: 80px;
+    color: #a61717;
+  }
+
+  .buttonWrapper{
+    width: 200px;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  h3.strictMode, h3.mirrorMode{
+    display: inline-block;
+    width: 120px;
+    font-size: 18px;
+    vertical-align: baseline;
+    margin: 15px 10px 0 0;
+  }
+
+  h3.score, h3.highScore{
+    font-size: 18px;
+  }
